@@ -61,12 +61,13 @@ public class LoginForm extends JFrame implements ActionListener {
 
       courseLabel = new JLabel();
       courseLabel.setText("Course:");
-      courseComboBox = new JComboBox<>(new String[]{"Course 1", "Course 2", "Course 3"});
+      courseComboBox = new JComboBox<>(new String[]{"Computer Engineering", "Computer Science", "Civil Engineering"});
 
       sectionLabel = new JLabel();
       sectionLabel.setText("Section:");
-      sectionComboBox = new JComboBox<>(new String[]{"Section A", "Section B", "Section C"});
-
+      sectionComboBox = new JComboBox<>(new String[]{"1-1", "2-2", "2-1"});
+      sectionComboBox = new JComboBox<>(new String[]{"1-1", "1-2", "1-3"});
+      sectionComboBox = new JComboBox<>(new String[]{"2-1", "2-2", "2-3"});
       addButton = new JButton("Add");
 
       formPanel.add(nameLabel);
