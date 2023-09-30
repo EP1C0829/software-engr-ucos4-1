@@ -1,7 +1,6 @@
 package Login;
 
 import java.awt.*;
-
 import javax.swing.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;

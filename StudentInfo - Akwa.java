@@ -83,7 +83,6 @@ public class StudentInfo {
 		courses.setBounds(194, 79, 167, 37);
 		frmFeature.getContentPane().add(courses);
 		
-
 		JComboBox<String> sections = new JComboBox<String>();
 		sections.setBounds(194, 125, 167, 37);
 		frmFeature.getContentPane().add(sections);
